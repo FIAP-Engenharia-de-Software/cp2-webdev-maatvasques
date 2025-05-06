@@ -6,6 +6,13 @@
 
 function corrigirValor(valor) {
   // TODO: implementar função
+  Number(valor)
+  if (valor === Number) {
+    return valor
+  }
+  if (valor !== Number) {
+    return "Valor inválido"
+  }
 }
 
 //NÃO REMOVA O CÓDIGO ABAIXO
